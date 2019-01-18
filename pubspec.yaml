@@ -1,0 +1,38 @@
+name: exchange_app
+description: Crypto Exchange Demo App
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  carousel_slider:
+  path_provider:
+  shared_preferences:
+  http:
+  rxdart:
+  device_info:
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/coins/
+    - assets/locale/i18n_en.json
+    - assets/locale/i18n_zh.json
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
